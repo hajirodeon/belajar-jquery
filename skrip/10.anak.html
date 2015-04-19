@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>Mengakses Anak Melalui Induk</title>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            alert("Klik OK untuk melihat efek perintah berikut");
+            $("p:first-child").css("font-weight", "bold");
+            $("p:last-child").css(
+                    {"background-color": "grey", "color": "blue"});
+            $(":only-child").css("font-style", "italic");
+        });
+    </script>
+
+</head>
+<body>
+<div>
+    <p>paragraf 1</p> <!-- first child element -->
+
+    <p>paragraf 2</p>
+
+    <p>paragraf 3</p> <!-- last child element -->
+</div>
+<div>
+    <p>paragraf 4</p>
+
+    <p>paragraf 5</p>
+
+    <p>paragraf 6</p>
+
+    <p>paragraf 7</p>
+</div>
+<div>
+    <p>paragraf 8</p> <!-- only child element -->
+</div>
+</body>
+</html>
