@@ -14,4 +14,4 @@ belajar dasar penggunaan jquery
 - http://www.asp.net/ajaxlibrary/cdn.ashx#jQuery_Releases_on_the_CDN_0
 
 # Getting started:
-- Clone this repo http://goo.gl/vQwnC5 to your xampp/htdocs or wamp/www rename the folder if you want.
+- Clone this repo https://github.com/lexsofahmi/belajar-jquery.git to your xampp/htdocs or wamp/www rename the folder if you want.
